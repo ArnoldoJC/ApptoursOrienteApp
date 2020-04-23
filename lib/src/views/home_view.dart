@@ -17,10 +17,11 @@ class _HomeViewState extends State<HomeView>{
   @override
   Widget build(BuildContext context) {
 
-      return Scaffold(
-      body: Stack(
-        children: <Widget>[
-          Container(
+    return Scaffold(
+      drawer: MenuLateral(),
+        body: Stack(
+          children: <Widget>[
+            Container(
             decoration: BoxDecoration(
               image: DecorationImage(
                  image: AssetImage('assets/img/bg_01.jpg'),
@@ -44,14 +45,7 @@ class _HomeViewState extends State<HomeView>{
               backgroundColor: Colors.transparent,
               elevation: 0,
               actions: <Widget>[
-                IconButton(
-                  icon: Icon(MdiIcons.menu, size: 35.8),
-                  onPressed: () {
-                     Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DepartmentView()));
-                  },
-                ),
-                SizedBox(width: 270), Icon(MdiIcons.recycle, size: 35.8), SizedBox(width: 5),
+                SizedBox(width: 270), Icon(MdiIcons.recycle, size: 30.0, color: Colors.green), SizedBox(width: 5),
               ],
             ),
           ),
@@ -77,11 +71,73 @@ class _HomeViewState extends State<HomeView>{
       ),
     );
   }
-
-  
-  
     
 }
+
+ class MenuLateral extends StatelessWidget{
+
+    @override
+    Widget build(BuildContext context){
+      return new Drawer(
+          
+        child: ListView(
+          
+          children: <Widget>[
+           
+            new UserAccountsDrawerHeader(accountName: Text(" "),  accountEmail: Text(" "),
+            currentAccountPicture: CircleAvatar(child: Icon(Icons.account_circle,  color: Colors.white, size:71.0 ), backgroundColor: Colors.black87),
+             decoration: BoxDecoration(
+              //image: DecorationImage(image: AssetImage("assets/img/apptours.png"),
+              //fit: BoxFit.cover
+              //),
+              color: Colors.grey,
+            ),
+            ),
+           
+            new ListTile(
+                
+                 title: Text("DEPARTAMENTOS", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),),
+                  leading: Icon(Icons.map, color: Colors.grey[700], size:33.0),
+                 onTap: (){
+                   Navigator.of(context).pop();
+                   Navigator.of(context).push(
+                     MaterialPageRoute(builder:(BuildContext context)=> DepartmentView()
+                     )
+                   );
+                 },
+              ),
+
+              new ListTile(
+                
+                 title: Text("QUIENES SOMOS", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),),
+                  leading: Icon(Icons.assignment_ind, color: Colors.grey[700], size:33.0),
+                 onTap: (){
+                   Navigator.of(context).pop();
+                   Navigator.of(context).push(
+                     MaterialPageRoute(builder:(BuildContext context)=> DepartmentView()
+                     )
+                   );
+                 },
+              ),
+
+               new ListTile(
+                
+                 title: Text("NOTIFICACIONES", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),),
+                  leading: Icon(Icons.notifications, color: Colors.grey[700], size:33.0),
+                 onTap: (){
+                   Navigator.of(context).pop();
+                   Navigator.of(context).push(
+                     MaterialPageRoute(builder:(BuildContext context)=> DepartmentView()
+                     )
+                   );
+                 },
+              )
+            
+          ],
+        )
+      );
+    }
+  }
 
 
 

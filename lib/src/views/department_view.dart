@@ -40,14 +40,8 @@ class _DepartmentViewState extends State<DepartmentView> {
               backgroundColor: Colors.transparent,
               elevation: 0,
               actions: <Widget>[
-                IconButton(
-                  icon: Icon(MdiIcons.menu, size: 35.8),
-                  onPressed: () {
-                     Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DepartmentView()));
-                  },
-                ),
-                SizedBox(width: 270), Icon(MdiIcons.recycle, size: 35.8), SizedBox(width: 5),
+                
+                SizedBox(width: 270), Icon(MdiIcons.recycle, size: 30.0, color: Colors.green), SizedBox(width: 5),
               ],
             ),
           ),
@@ -102,12 +96,12 @@ class _DepartmentViewState extends State<DepartmentView> {
                               child: Text( "LA UNION", style: TextStyle(fontSize: 20.0),),
                                   ),
                                 ),  
-                  const SizedBox(height: 35),
+                  //const SizedBox(height: 35),
                  
-                 new FlatButton.icon(onPressed:  () {
-                   Navigator.pop(context);
-                   } , icon: Icon(Icons.navigate_before, size: 35.8), textColor: Colors.white, padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 15.0, bottom: 15.0 ), 
-                   color: Colors.red, label: Text('REGRESAR' , style: TextStyle(fontSize: 19.0),),),
+                 //new FlatButton.icon(onPressed:  () {
+                 //  Navigator.pop(context);
+                  // } , icon: Icon(Icons.navigate_before, size: 35.8), textColor: Colors.white, padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 15.0, bottom: 15.0 ), 
+                   //color: Colors.red, label: Text('REGRESAR' , style: TextStyle(fontSize: 19.0),),),
                   
           ],
     
