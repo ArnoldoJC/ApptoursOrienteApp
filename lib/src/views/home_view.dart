@@ -4,6 +4,9 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 
 import 'package:apptours_oriente/src/views/department_view.dart';
 
+import 'package:apptours_oriente/src/views/aboutUs_view.dart';
+
+
 
 class HomeView extends StatefulWidget{
   @override
@@ -28,20 +31,11 @@ class _HomeViewState extends State<HomeView>{
                 fit: BoxFit.cover,
               ),
             ),
-            //child: Center(
-              //child: Text(
-                //'mrflutter.com',
-                //style: TextStyle(
-                  //color: Colors.white,
-                 // fontSize: 30,
-               // ),
-              //),
-              
-            //),
+            
           ),
           Positioned(
             child: AppBar(
-              title: Text("Transparent AppBar"),
+              
               backgroundColor: Colors.transparent,
               elevation: 0,
               actions: <Widget>[
@@ -63,6 +57,7 @@ class _HomeViewState extends State<HomeView>{
                     child:Text('"Enseñar a Cuidar el Medio Ambiente es Enseñar a Valorar la Vida."',  textAlign: TextAlign.center, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold , color: Colors.white70),),
                   ),
                 ),
+                
           ],
     
         ),
@@ -114,7 +109,7 @@ class _HomeViewState extends State<HomeView>{
                  onTap: (){
                    Navigator.of(context).pop();
                    Navigator.of(context).push(
-                     MaterialPageRoute(builder:(BuildContext context)=> DepartmentView()
+                     MaterialPageRoute(builder:(BuildContext context)=> AboutUsView()
                      )
                    );
                  },
