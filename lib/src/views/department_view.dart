@@ -51,7 +51,8 @@ class _DepartmentViewState extends State<DepartmentView> {
                             onPressed: () {
                               Navigator.push(context,
                                   MaterialPageRoute(builder: (context) => SiteListUsView()));
-                            } , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
+                            },
+                             child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
                             colors: <Color>[Color(0xFF0D47A1), Color(0xFF1976D2), Color(0xFF42A5F5),],
                                ),
                                ),
