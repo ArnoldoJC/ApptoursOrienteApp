@@ -34,26 +34,27 @@ class _SiteListUsViewState extends State<SiteListUsView> {
             ),
           ),
         
-        Center (child: Column(
-           mainAxisAlignment: MainAxisAlignment.center,
+          Column(
+         mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
-                
-                Align(
+
+                 Align(
                   child: Padding(
-                    padding: const EdgeInsets.only(top: 10.0, bottom: 50.0 ),
+                    padding: const EdgeInsets.only(top: 70.0, bottom: 5.0 ),
                     child:Text('SITIOS TURISTICOS USULUTAN',  textAlign: TextAlign.center, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold , color: Colors.white),),
                   ),
                 ),
-                ListView(
+                    ListView(
+                      scrollDirection: Axis.vertical,
                   shrinkWrap: true,
-                  //padding: EdgeInsets.all(10.0),
+                  padding: EdgeInsets.all(10.0),
                   children: <Widget>[
                     Card(
                       child: Column(
                         children: <Widget>[
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
-                          leading:Icon(Icons.adb),
+                          leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
                           ),
                           Row(
@@ -72,7 +73,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                         children: <Widget>[
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
-                          leading:Icon(Icons.adb),
+                          leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
                           ),
                           Row(
@@ -91,7 +92,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                         children: <Widget>[
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
-                          leading:Icon(Icons.adb),
+                          leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
                           ),
                           Row(
@@ -110,7 +111,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                         children: <Widget>[
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
-                          leading:Icon(Icons.adb),
+                          leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
                           ),
                           Row(
@@ -124,20 +125,41 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                         ],
                       )
                     ),
-                    
-
+                     Card(
+                      child: Column(
+                        children: <Widget>[
+                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                          ListTile(
+                          leading:Icon(Icons.image, size: 45.5),
+                          title: Text('Playa El Espino.'),
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                              FlatButton(
+                                onPressed: () {}, 
+                              child: Text('Ver Más'),)
+                            ],
+                          )
+                        ],
+                      )
+                    ),
+                  
+                      
                   ],
+                  
+                ),
+     
+                     ],
                 ),
                 
-               
                 
           ],
+            
+        ),
+        
+        );
     
-        ),
-        ),
-        ],
-      ),
-    );
 
   }
  }

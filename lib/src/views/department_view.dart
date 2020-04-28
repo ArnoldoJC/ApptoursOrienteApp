@@ -2,6 +2,11 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:apptours_oriente/src/views/siteListUs_view.dart';
+import 'package:apptours_oriente/src/views/siteListSm_view.dart';
+import 'package:apptours_oriente/src/views/siteListMo_view.dart';
+import 'package:apptours_oriente/src/views/siteListUn_view.dart';
+
+
 
 class DepartmentView extends StatefulWidget {
   @override
@@ -62,7 +67,10 @@ class _DepartmentViewState extends State<DepartmentView> {
                                 ),
                   const SizedBox(height: 25),
                   new FlatButton( textColor: Colors.white, padding: EdgeInsets.all(0.0), //splashColor: Colors.blueAccent,
-                              onPressed: () {} , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
+                              onPressed: () {
+                                Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) => SiteListSmView()));
+                              } , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
                               colors: <Color>[Color(0xFF0D47A1), Color(0xFF1976D2), Color(0xFF42A5F5),],
                                ),
                                ),
@@ -72,7 +80,10 @@ class _DepartmentViewState extends State<DepartmentView> {
                                 ), 
                   const SizedBox(height: 25),
                   new FlatButton( textColor: Colors.white, padding: EdgeInsets.all(0.0), //splashColor: Colors.blueAccent,
-                              onPressed: () {} , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
+                              onPressed: () {
+                                Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) => SiteListMoView()));
+                              } , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
                               colors: <Color>[Color(0xFF0D47A1), Color(0xFF1976D2), Color(0xFF42A5F5),],
                                ),
                                ),
@@ -82,7 +93,10 @@ class _DepartmentViewState extends State<DepartmentView> {
                                 ), 
                   const SizedBox(height: 25),
                   new FlatButton( textColor: Colors.white, padding: EdgeInsets.all(0.0), //splashColor: Colors.blueAccent,
-                              onPressed: () {} , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
+                              onPressed: () {
+                                Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) => SiteListUnView()));
+                              } , child: Container(decoration: const BoxDecoration(gradient: LinearGradient(
                               colors: <Color>[Color(0xFF0D47A1), Color(0xFF1976D2), Color(0xFF42A5F5),],
                                ),
                                ),

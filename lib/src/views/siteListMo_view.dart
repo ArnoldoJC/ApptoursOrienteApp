@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
-class SiteListUnView extends StatefulWidget {
+class SiteListMoView extends StatefulWidget {
   @override
-  _SiteListUnViewState createState() => _SiteListUnViewState();
+  _SiteListMoViewState createState() => _SiteListMoViewState();
 }
 
-class _SiteListUnViewState extends State<SiteListUnView> {
+class _SiteListMoViewState extends State<SiteListMoView> {
   @override
   Widget build(BuildContext context) {
         return Scaffold(
@@ -33,19 +33,19 @@ class _SiteListUnViewState extends State<SiteListUnView> {
               ],
             ),
           ),
-        
+          
          Column(
          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-
                  Align(
                   child: Padding(
                     padding: const EdgeInsets.only(top: 70.0, bottom: 5.0 ),
-                    child:Text('SITIOS TURISTICOS LA UNION',  textAlign: TextAlign.center, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold , color: Colors.white),),
+                    child:Text('SITIOS TURISTICOS MORAZAN',  textAlign: TextAlign.center, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold , color: Colors.white),),
                   ),
                 ),
-                    ListView(
-                          scrollDirection: Axis.vertical,
+                
+              ListView(
+                    scrollDirection: Axis.vertical,
                   shrinkWrap: true,
                   padding: EdgeInsets.all(10.0),
                   children: <Widget>[
@@ -55,14 +55,13 @@ class _SiteListUnViewState extends State<SiteListUnView> {
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
+                          title: Text('Las Aventuras De Perkin.'),
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: <Widget>[
                               FlatButton(
-                                onPressed: () {
-                                }, 
+                                onPressed: () {}, 
                               child: Text('Ver Más'),)
                             ],
                           )
@@ -75,7 +74,7 @@ class _SiteListUnViewState extends State<SiteListUnView> {
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
+                          title: Text('Las Aventuras De Perkin.'),
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.end,
@@ -94,7 +93,7 @@ class _SiteListUnViewState extends State<SiteListUnView> {
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
+                          title: Text('Las Aventuras De Perkin.'),
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.end,
@@ -113,7 +112,7 @@ class _SiteListUnViewState extends State<SiteListUnView> {
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
+                          title: Text('Las Aventuras De Perkin.'),
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.end,
@@ -126,7 +125,7 @@ class _SiteListUnViewState extends State<SiteListUnView> {
                         ],
                       )
                     ),
-                    
+                   
                   
                       
                   ],
@@ -135,7 +134,7 @@ class _SiteListUnViewState extends State<SiteListUnView> {
      
                      ],
                 ),
-                
+               
                 
           ],
             
