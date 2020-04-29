@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:apptours_oriente/src/views/home_view.dart';
-//import 'package:apptours_oriente/src/views/prueba.dart';
+import 'package:apptours_oriente/src/views/login.dart';
 
 class MyApp extends StatelessWidget {
 
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
      
      debugShowCheckedModeBanner: false,
    
-     home: HomeView(),
+     home:  Login(),
      
     
    );
