@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:apptours_oriente/src/views/touristicSite_view.dart';
+
 
 class SiteListUsView extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
           ),
         
           Column(
-         mainAxisAlignment: MainAxisAlignment.end,
+         mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
 
                  Align(
@@ -44,7 +45,13 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                     child:Text('SITIOS TURISTICOS USULUTAN',  textAlign: TextAlign.center, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold , color: Colors.white),),
                   ),
                 ),
-                    ListView(
+                  new Container(
+                    width: 335.0,
+                    height: 525.0,
+                    //color: Colors.white54,
+                    padding: EdgeInsets.all(8.0,) ,
+                    margin: EdgeInsets.all(15.0,),
+                    child:   ListView(
                       scrollDirection: Axis.vertical,
                   shrinkWrap: true,
                   padding: EdgeInsets.all(10.0),
@@ -61,7 +68,10 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: <Widget>[
                               FlatButton(
-                                onPressed: () {}, 
+                                onPressed: () {
+                                   Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) => TouristicSiteView()));
+                                }, 
                               child: Text('Ver Más'),)
                             ],
                           )
@@ -125,7 +135,26 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                         ],
                       )
                     ),
-                     Card(
+                       Card(
+                      child: Column(
+                        children: <Widget>[
+                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                          ListTile(
+                          leading:Icon(Icons.image, size: 45.5),
+                          title: Text('Playa El Espino.'),
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                              FlatButton(
+                                onPressed: () {}, 
+                              child: Text('Ver Más'),)
+                            ],
+                          )
+                        ],
+                      )
+                    ),
+                    Card(
                       child: Column(
                         children: <Widget>[
                          //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
@@ -148,13 +177,13 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                       
                   ],
                   
-                ),
-     
-                     ],
-                ),
+                   ),
+          ),
+            ],
+        ),
                 
                 
-          ],
+      ],
             
         ),
         

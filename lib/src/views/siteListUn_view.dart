@@ -44,97 +44,141 @@ class _SiteListUnViewState extends State<SiteListUnView> {
                     child:Text('SITIOS TURISTICOS LA UNION',  textAlign: TextAlign.center, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold , color: Colors.white),),
                   ),
                 ),
-                    ListView(
+                   new Container(
+                    width: 335.0,
+                    height: 525.0,
+                    //color: Colors.white54,
+                    padding: EdgeInsets.all(8.0,) ,
+                    margin: EdgeInsets.all(15.0,),
+                    child:  ListView(
                           scrollDirection: Axis.vertical,
-                  shrinkWrap: true,
-                  padding: EdgeInsets.all(10.0),
-                  children: <Widget>[
-                    Card(
-                      child: Column(
-                        children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
-                          ListTile(
-                          leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.end,
+                      shrinkWrap: true,
+                      padding: EdgeInsets.all(10.0),
+                      children: <Widget>[
+                        Card(
+                          child: Column(
                             children: <Widget>[
-                              FlatButton(
-                                onPressed: () {
-                                }, 
-                              child: Text('Ver Más'),)
+                            //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              ListTile(
+                              leading:Icon(Icons.image, size: 45.5),
+                              title: Text('Parque De La Familia.'),
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  FlatButton(
+                                    onPressed: () {
+                                    }, 
+                                  child: Text('Ver Más'),)
+                                ],
+                              )
                             ],
                           )
-                        ],
-                      )
-                    ),
-                  Card(
-                      child: Column(
-                        children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
-                          ListTile(
-                          leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.end,
+                        ),
+                      Card(
+                          child: Column(
                             children: <Widget>[
-                              FlatButton(
-                                onPressed: () {}, 
-                              child: Text('Ver Más'),)
+                            //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              ListTile(
+                              leading:Icon(Icons.image, size: 45.5),
+                              title: Text('Parque De La Familia.'),
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  FlatButton(
+                                    onPressed: () {}, 
+                                  child: Text('Ver Más'),)
+                                ],
+                              )
                             ],
                           )
-                        ],
-                      )
-                    ),
-                    Card(
-                      child: Column(
-                        children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
-                          ListTile(
-                          leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.end,
+                        ),
+                        Card(
+                          child: Column(
                             children: <Widget>[
-                              FlatButton(
-                                onPressed: () {}, 
-                              child: Text('Ver Más'),)
+                            //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              ListTile(
+                              leading:Icon(Icons.image, size: 45.5),
+                              title: Text('Parque De La Familia.'),
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  FlatButton(
+                                    onPressed: () {}, 
+                                  child: Text('Ver Más'),)
+                                ],
+                              )
                             ],
                           )
-                        ],
-                      )
-                    ),
-                    Card(
-                      child: Column(
-                        children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
-                          ListTile(
-                          leading:Icon(Icons.image, size: 45.5),
-                          title: Text('Parque De La Familia.'),
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.end,
+                        ),
+                        Card(
+                          child: Column(
                             children: <Widget>[
-                              FlatButton(
-                                onPressed: () {}, 
-                              child: Text('Ver Más'),)
+                            //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              ListTile(
+                              leading:Icon(Icons.image, size: 45.5),
+                              title: Text('Parque De La Familia.'),
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  FlatButton(
+                                    onPressed: () {}, 
+                                  child: Text('Ver Más'),)
+                                ],
+                              )
                             ],
                           )
-                        ],
-                      )
-                    ),
-                    
+                        ),
+                        Card(
+                          child: Column(
+                            children: <Widget>[
+                            //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              ListTile(
+                              leading:Icon(Icons.image, size: 45.5),
+                              title: Text('Parque De La Familia.'),
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  FlatButton(
+                                    onPressed: () {
+                                    }, 
+                                  child: Text('Ver Más'),)
+                                ],
+                              )
+                            ],
+                          )
+                        ),
+                      Card(
+                          child: Column(
+                            children: <Widget>[
+                            //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              ListTile(
+                              leading:Icon(Icons.image, size: 45.5),
+                              title: Text('Parque De La Familia.'),
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  FlatButton(
+                                    onPressed: () {}, 
+                                  child: Text('Ver Más'),)
+                                ],
+                              )
+                            ],
+                          )
+                        ),
                   
                       
-                  ],
+                      ],
                   
-                ),
-     
-                     ],
-                ),
+                    ),
+                  ),
+               ],
+             ),
                 
                 
           ],

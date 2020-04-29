@@ -6,6 +6,7 @@ import 'package:apptours_oriente/src/views/department_view.dart';
 
 import 'package:apptours_oriente/src/views/aboutUs_view.dart';
 
+import 'package:apptours_oriente/src/views/notification_view.dart';
 
 
 class HomeView extends StatefulWidget{
@@ -122,7 +123,7 @@ class _HomeViewState extends State<HomeView>{
                  onTap: (){
                    Navigator.of(context).pop();
                    Navigator.of(context).push(
-                     MaterialPageRoute(builder:(BuildContext context)=> DepartmentView()
+                     MaterialPageRoute(builder:(BuildContext context)=> NotificationView()
                      )
                    );
                  },
