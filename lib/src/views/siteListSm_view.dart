@@ -58,7 +58,7 @@ class _SiteListSmViewState extends State<SiteListSmView> {
                           Card(
                             child: Column(
                               children: <Widget>[
-                              //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              
                                 ListTile(
                                 leading:Icon(Icons.image, size: 45.5),
                                 title: Text('Flor Del Rio.'),
@@ -77,7 +77,7 @@ class _SiteListSmViewState extends State<SiteListSmView> {
                         Card(
                             child: Column(
                               children: <Widget>[
-                              //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              
                                 ListTile(
                                 leading:Icon(Icons.image, size: 45.5),
                                 title: Text('Flor Del Rio.'),
@@ -96,7 +96,7 @@ class _SiteListSmViewState extends State<SiteListSmView> {
                           Card(
                             child: Column(
                               children: <Widget>[
-                              //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              
                                 ListTile(
                                 leading:Icon(Icons.image, size: 45.5),
                                 title: Text('Flor Del Rio.'),
@@ -115,7 +115,7 @@ class _SiteListSmViewState extends State<SiteListSmView> {
                           Card(
                             child: Column(
                               children: <Widget>[
-                              //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              
                                 ListTile(
                                 leading:Icon(Icons.image, size: 45.5),
                                 title: Text('Flor Del Rio.'),
@@ -134,7 +134,7 @@ class _SiteListSmViewState extends State<SiteListSmView> {
                         Card(
                             child: Column(
                               children: <Widget>[
-                              //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              
                                 ListTile(
                                 leading:Icon(Icons.image, size: 45.5),
                                 title: Text('Flor Del Rio.'),
@@ -153,7 +153,7 @@ class _SiteListSmViewState extends State<SiteListSmView> {
                         Card(
                             child: Column(
                               children: <Widget>[
-                              //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                              
                                 ListTile(
                                 leading:Icon(Icons.image, size: 45.5),
                                 title: Text('Flor Del Rio.'),

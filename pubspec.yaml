@@ -52,7 +52,10 @@ flutter:
   assets:
     - assets/img/apptours.png
     - assets/img/bg_01.jpg
-    - assets/img/espino.jpg
+    - assets/img/mespino.jpeg
+    - assets/img/resp.jpeg
+    - assets/img/resp2.jpeg
+    - assets/img/resp3.jpeg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

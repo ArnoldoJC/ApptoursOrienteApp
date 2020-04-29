@@ -58,7 +58,7 @@ class _SiteListMoViewState extends State<SiteListMoView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Las Aventuras De Perkin.'),
@@ -77,7 +77,7 @@ class _SiteListMoViewState extends State<SiteListMoView> {
                   Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                        
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Las Aventuras De Perkin.'),
@@ -96,7 +96,7 @@ class _SiteListMoViewState extends State<SiteListMoView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Las Aventuras De Perkin.'),
@@ -115,7 +115,7 @@ class _SiteListMoViewState extends State<SiteListMoView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Las Aventuras De Perkin.'),
@@ -134,7 +134,7 @@ class _SiteListMoViewState extends State<SiteListMoView> {
                    Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Las Aventuras De Perkin.'),
@@ -153,7 +153,7 @@ class _SiteListMoViewState extends State<SiteListMoView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Las Aventuras De Perkin.'),

@@ -59,7 +59,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
@@ -81,7 +81,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                   Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
@@ -100,7 +100,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                        
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
@@ -119,7 +119,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
@@ -138,7 +138,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                        Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
@@ -157,7 +157,7 @@ class _SiteListUsViewState extends State<SiteListUsView> {
                     Card(
                       child: Column(
                         children: <Widget>[
-                         //new Image.asset('assets/img/espino.jpg.' , width: 10.0, height: 10.0,),
+                         
                           ListTile(
                           leading:Icon(Icons.image, size: 45.5),
                           title: Text('Playa El Espino.'),
