@@ -10,7 +10,7 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> {
 
-   TextEditingController nameController = TextEditingController();
+  TextEditingController userController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
  
  @override
@@ -50,7 +50,7 @@ class _LoginState extends State<Login> {
                       padding: EdgeInsets.all(10),
                       child: TextField(
                          style:new TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold, ),
-                        controller: nameController,
+                        controller: userController,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(),
                           labelText: 'User',
