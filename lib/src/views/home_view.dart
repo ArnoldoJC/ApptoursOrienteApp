@@ -9,6 +9,7 @@ import 'package:apptours_oriente/src/views/aboutUs_view.dart';
 import 'package:apptours_oriente/src/views/notification_view.dart';
 
 
+
 class HomeView extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
@@ -80,12 +81,10 @@ class _HomeViewState extends State<HomeView>{
           
           children: <Widget>[
            
-            new UserAccountsDrawerHeader(accountName: Text(" "),  accountEmail: Text(" "),
+            new UserAccountsDrawerHeader(accountName: Text(" "),  accountEmail: Text(""),
             currentAccountPicture: CircleAvatar(child: Icon(Icons.account_circle,  color: Colors.white, size:71.0 ), backgroundColor: Colors.black87),
              decoration: BoxDecoration(
-              //image: DecorationImage(image: AssetImage("assets/img/apptours.png"),
-              //fit: BoxFit.cover
-              //),
+              
               color: Colors.grey,
             ),
             ),
